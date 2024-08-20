@@ -77,8 +77,8 @@ require('lazy').setup({
     },
   },
 
-      -- { 'nvim-tree/nvim-web-devicons',opts  = {} },
-      -- { 'j-hui/fidget.nvim', opts = {} },
+      { 'nvim-tree/nvim-web-devicons',opts  = {} },
+      { 'j-hui/fidget.nvim', opts = {} },
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     dependencies = {
